@@ -1,0 +1,31 @@
+:root{
+    --nav-color:blue;
+    --font-main: "Radio Canaa";
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300..700;1,300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar1{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--nav-color);
+    align-items: center;
+    font-family: radio c;
+
+}
+#logo{
+    height: 50px;
+    width: 114px;
+    padding: 1px 8px 0 6px;
+}
+#locate{
+    display: flex;
+    flex-direction: column;
+    color: white
+    ;
+}
